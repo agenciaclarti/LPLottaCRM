@@ -1,8 +1,7 @@
 (() => {
   "use strict";
 
-  // Altere somente este valor quando o destino comercial estiver definido.
-  const CTA_TARGET = "#contato";
+  const CTA_TARGET = "https://app.lottacrm.com.br/";
   document.querySelectorAll("[data-primary-cta]").forEach((link) => {
     link.setAttribute("href", CTA_TARGET);
   });
